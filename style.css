@@ -1,0 +1,34 @@
+.fixed {
+	position:fixed;
+	display:inline;
+	padding:1em 2cm;
+	width: 100%;
+}
+
+.tool {
+	width:95%;
+	min-width:80px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, td, th {    
+    border: 0.2px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 2px;
+    font-weight: normal !important;
+}
+
+label {
+	width: 4cm;
+	font-weight: normal !important;
+}

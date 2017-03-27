@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF8">
+		<meta charset="utf-8">
+		<title>Visualization Tools</title>
+
+		<!-- Libraries -->
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.4/d3.min.js"></script>
+
+		<!--Stylesheets-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/style.css" />
+
+		<!--Code-->
+		<script src="main.js"></script>
+	</head>
+
+	<body ng-app="visToolsApp">
+		<div id="mainContainer" ng-controller="visToolsCtrl">
+			<div class="navbar navbar-default navbar-static-top fixed cointainer">
+				<h1>Visualization tools</h1>				
+			</div>
+			<div class="row" style="padding-top:3cm">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<div class="row">
+						<h4>Languages</h4>
+					    <label ng-repeat="option in languages">
+					        <input type="radio" name="radio" ng-model="selectionLanguage.language" value="{{option}}" ng-change="selectLanguage()"/> {{option}} 
+					    </label>						
+					</div>				
+					<div class="row">
+						<h4>Dataset Types</h4>
+						<div class="col-md-4">
+							<h5>Tables and Fiels</h5>
+							<div ng-repeat="option in tables">
+								<label>{{option}}</label>
+								<input type="checkbox" value="{{option}}" ng-checked="selection.indexOf(option) > -1" ng-click="select(option)">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<h5>Graphs and Trees</h5>
+							<div ng-repeat="option in graphs">
+								<label>{{option}}</label>
+								<input type="checkbox" value="{{option}}" ng-checked="selection.indexOf(option) > -1" ng-click="select(option)">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<h5>Spatial</h5>
+							<div ng-repeat="option in spatial"><label>{{option}}</label>
+								<input type="checkbox" value="{{option}}" ng-checked="selection.indexOf(option) > -1" ng-click="select(option)">
+							</div>
+						</div>						
+					</div>
+					<div class="row">
+						<h4>Abstraction Level</h4>
+						<label ng-repeat="option in abstraction">
+					        <input type="radio" name="radio" ng-model="selectionAbstraction.abstraction" value="{{option}}" ng-change="selectAbstraction()"/> {{option}} 
+					    </label>
+					</div>
+					<div class="row">
+						<h4>Interaction</h4>
+						<div class="col-md-4">
+							<h5>User</h5>
+							<div ng-repeat="option in interUser"><label>{{option}}</label>
+								<input type="checkbox" value="{{option}}" ng-checked="selection.indexOf(option) > -1" ng-click="select(option)">
+							</div>
+						</div>						
+						<div class="col-md-4">
+							<h5>Data</h5>
+							<div ng-repeat="option in interData"><label>{{option}}</label>
+								<input type="checkbox" value="{{option}}" ng-checked="selection.indexOf(option) > -1" ng-click="select(option)">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<h4>Widgets</h4>
+						<div class="col-md-4">
+							<div ng-repeat="option in widgets"><label>{{option}}</label>
+								<input type="checkbox" value="{{option}}" ng-checked="selection.indexOf(option) > -1" ng-click="select(option)">
+							</div>
+						</div>						
+					</div>		
+					<div class="row">
+						<h4>License</h4>
+						<label ng-repeat="option in license" style="width:15cm">
+					        <input type="radio" name="radio" ng-model="selectionLicense.license" value="{{option}}" ng-change="selectLicense()"/> {{option}} 
+					    </label>	
+					</div>
+				</div>
+				<div class="col-md-2"></div>
+			</div>			
+			<div class="row" style="padding-top:3cm">
+				<div class="col-md-1"></div>
+				<div id="tools" class="col-md-10"></div>
+				<div class="col-md-1"></div>
+			</div>
+		</div>
+	</body>
+</html>
