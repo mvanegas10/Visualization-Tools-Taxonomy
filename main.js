@@ -4,12 +4,6 @@ var visToolsApp = angular.module('visToolsApp', []);
 
 visToolsApp.controller('visToolsCtrl', ['$scope', function($scope){
 
-    d3.csv("./data/tools.csv", function(data) {
-        data = data;
-        var columns = Object.keys(data[0]);
-        getTools(data, columns);
-    });
-
     $scope.languages = ["Java","JavaScript","C++","PHP","C#","Ruby","Python","R","Matlab"];
     $scope.tables = ["Bar chart", "Line chart", "Pie chart", "Scatter plot"];
     $scope.graphs = ["Node-Link Diagram", "Adjacency matrix", "Tree map"];
@@ -49,7 +43,7 @@ visToolsApp.controller('visToolsCtrl', ['$scope', function($scope){
     };
 
     function filterData () {
-        d3.csv("/data/tools.csv", function(data) {
+        d3.csv("./data/tools.csv", function(data) {
             data = data;
             var columns = Object.keys(data[0]);
             if($scope.selectionLanguage.language){
@@ -77,6 +71,8 @@ visToolsApp.controller('visToolsCtrl', ['$scope', function($scope){
             getTools(data, columns);
         });
     }
+
+    filterData();
 
     function getTools(data, columns) {
         console.log("Showing " + data.length + " tools");
