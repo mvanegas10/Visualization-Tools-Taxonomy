@@ -14,11 +14,19 @@ visToolsApp.controller('visToolsCtrl', ['$scope', function($scope){
     $scope.widgets = ["Communication","Interaction"];
     $scope.license = ['BSD 3-clause "New" or "Revised" License',"BSD License","Creative Commons Attribution-ShareAlike 4.0 International License","MIT License","Apache License 2.0",'BSD 2-clause "Simplified" License',"GNU Free Documentation License","GNU General Public License v3","Apache 2.0 License/MIT License"];
 
+    $scope.length;
     $scope.selectionLanguage = {"language":""};
     $scope.selection = [];
     $scope.selectionAbstraction = {"abstraction":""};
     $scope.selectionLicense = {"license":""};
 
+    $scope.reset = function () {
+        $scope.selectionLanguage = {"language":""};
+        $scope.selection = [];
+        $scope.selectionAbstraction = {"abstraction":""};
+        $scope.selectionLicense = {"license":""};
+        filterData();
+    }
 
     $scope.selectLanguage = function (option) {
         console.log($scope.selectionLanguage);
@@ -59,12 +67,12 @@ visToolsApp.controller('visToolsCtrl', ['$scope', function($scope){
             });
             if($scope.selectionAbstraction.abstraction){
                 data = data.filter(function (d) {
-                    if(d["Abstraction-Level"].trim() === $scope.selectionAbstraction.abstraction.trim()) return d;
+                    if(d["Abstraction-Level"] === $scope.selectionAbstraction.abstraction) return d;
                 });
             }
             if($scope.selectionLicense.license){
                 data = data.filter(function (d) {
-                    if(d.License.trim() === $scope.selectionLicense.license.trim()) return d;
+                    if(d.License === $scope.selectionLicense.license) return d;
                 });
             }
             document.getElementById("tools").innerHTML = "";
@@ -75,6 +83,8 @@ visToolsApp.controller('visToolsCtrl', ['$scope', function($scope){
     filterData();
 
     function getTools(data, columns) {
+        $scope.length = data.length;
+        $scope.$apply();
         console.log("Showing " + data.length + " tools");
         console.log(data);
         var container = d3.select("#tools");
