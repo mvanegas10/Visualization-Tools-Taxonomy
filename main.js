@@ -4,7 +4,7 @@ var visToolsApp = angular.module('visToolsApp', []);
 
 visToolsApp.controller('visToolsCtrl', ['$scope', function($scope){
 
-    d3.csv("/data/tools.csv", function(data) {
+    d3.csv("./data/tools.csv", function(data) {
         data = data;
         var columns = Object.keys(data[0]);
         getTools(data, columns);
