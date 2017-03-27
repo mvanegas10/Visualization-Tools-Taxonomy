@@ -11,7 +11,7 @@ visToolsApp.controller('visToolsCtrl', ['$scope', function($scope){
     $scope.abstraction = ["High", "Low"];
     $scope.interData = ["Poll"];
     $scope.interUser = ["Zoom","Pop up","Drill Down"];
-    $scope.widgets = ["Communication","Interaction"];
+    $scope.widgets = ["Communication","Modularity"];
     $scope.license = ['BSD 3-clause "New" or "Revised" License',"BSD License","Creative Commons Attribution-ShareAlike 4.0 International License","MIT License","Apache License 2.0",'BSD 2-clause "Simplified" License',"GNU Free Documentation License","GNU General Public License v3","Apache 2.0 License/MIT License"];
 
     $scope.length;
