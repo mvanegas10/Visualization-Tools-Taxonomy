@@ -1,8 +1,16 @@
 .fixed {
 	position:fixed;
 	display:inline;
-	padding:1em 2cm;
+	padding:0em 2cm;
 	width: 100%;
+}
+
+.menu {
+	position:fixed;
+	display:inline;
+	padding:2cm 1cm;
+	width: 45%;
+	background: #F8F8F8;
 }
 
 .tool {
@@ -26,9 +34,15 @@ table {
 th, td {
     padding: 2px;
     font-weight: normal !important;
+    font-size: 12px !important;
 }
 
 label {
 	width: 4cm;
 	font-weight: normal !important;
+	font-size: 12px !important;
+}
+
+h5,h6 {
+	margin:0.2em;
 }
