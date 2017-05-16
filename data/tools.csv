@@ -30,6 +30,6 @@ Brunel,https://github.com/Brunel-Visualization/Brunel,brunel.png,Java,1,1,1,1,1,
 Gephi,https://gephi.org/,gephi.png,Java,0,0,0,0,1,0,0,0,0,High,1,-,1,1,1,0,1,GNU General Public License v3
 Sigma,http://sigmajs.org/,sigma.jpg,JavaScript,0,0,0,0,1,0,0,0,0,High,1,Using external functionalities as web sockets,1,1,1,0,1,MIT License
 Vis,http://visjs.org/,visjs.png,JavaScript,1,1,0,1,1,0,0,0,1,High,1,-,1,1,0,0,1,Apache 2.0 License/MIT License
-NVD3,http://nvd3.org/,,JavaScript,1,1,1,1,0,0,0,0,0,High,1,,1,1,0,0,1,Apache License 2.0
-DimpleJS,http://dimplejs.org/,,JavaScript,1,1,1,1,0,0,0,0,0,H,1,,0,1,0,0,1,MIT License
-RickShaw,http://code.shutterstock.com/rickshaw/,,JavaScript,1,1,1,1,0,0,0,0,0,H,1,,1,1,0,0,1,MIT License
+NVD3,http://nvd3.org/,nvd3.png,JavaScript,1,1,1,1,0,0,0,0,0,High,1,,1,1,0,0,1,Apache License 2.0
+DimpleJS,http://dimplejs.org/,dimple.png,JavaScript,1,1,1,1,0,0,0,0,0,H,1,,0,1,0,0,1,MIT License
+RickShaw,http://code.shutterstock.com/rickshaw/,rickshaw.png,JavaScript,1,1,1,1,0,0,0,0,0,H,1,,1,1,0,0,1,MIT License
