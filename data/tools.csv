@@ -1,35 +1,35 @@
 Toolkit/library,URL,Image,Language,Bar_chart,Line_chart,Pie_chart,Scatter_plot,Node-Link_Diagram,Adjacency_Matrix,TreeMap,Map,Vector,Abstraction-Level,Poll,Observation,Zoom,Pop_up,Drill_Down,Communication,Modularity,License
-Prefuse,http://prefuse.org/,prefuse.gif,Java,1,1,1,1,1,1,1,0,1,Low,1,-,1,1,1,1,0,"BSD 3-clause ""New"" or ""Revised"" License"
-Protovis,http://mbostock.github.io/protovis/,protovis.png,JavaScript,1,1,1,1,1,1,1,1,0,Low,0,-,1,1,1,1,0,BSD License
-Improvise,http://www.cs.ou.edu/~weaver/improvise/,improvise.png,Java,1,1,1,1,1,1,0,1,0,Low,1,-,1,1,1,1,0,Creative Commons Attribution-ShareAlike 4.0 International License
-InfoVis Toolkit,https://philogb.github.io/jit/,infovis.png,JavaScript,1,1,1,1,1,1,1,0,0,High,0,-,1,1,1,0,1,MIT License
+Brunel,https://github.com/Brunel-Visualization/Brunel,brunel.png,Java,1,1,1,1,1,1,1,1,0,High,0,-,1,1,0,0,1,Apache License 2.0
+C3,http://c3js.org/,c3.png,JavaScript,1,1,1,1,0,0,0,0,0,High,1,-,1,1,1,0,1,MIT License
 D3,https://d3js.org/,d3.png,JavaScript,1,1,1,1,1,1,1,1,1,Low,1,-,1,1,1,1,0,BSD License
 DC,https://dc-js.github.io/dc.js/,dc.png,JavaScript,1,1,1,1,0,1,0,0,0,High,1,-,1,1,1,1,1,Apache License 2.0
-C3,http://c3js.org/,c3.png,JavaScript,1,1,1,1,0,0,0,0,0,High,1,-,1,1,1,0,1,MIT License
-Vega,https://vega.github.io/vega/,vega.png,JavaScript,1,1,1,1,1,1,1,1,1,High,1,-,1,1,1,0,1,"BSD 3-clause ""New"" or ""Revised"" License"
-Vega-Lite,https://vega.github.io/vega-lite/,vega-lite.png,JavaScript,1,1,1,1,0,0,0,0,0,High,1,-,1,1,0,0,1,"BSD 3-clause ""New"" or ""Revised"" License"
-TileMill,https://tilemill-project.github.io/tilemill/,tilemill.jpg,JavaScript,0,0,0,0,0,0,0,1,0,High,0,-,1,1,0,0,1,"BSD 3-clause ""New"" or ""Revised"" License"
-VTK,http://www.vtk.org/,vtk.png,C++,1,1,1,1,1,1,1,1,1,Low,1,-,1,1,1,1,0,BSD License
+DimpleJS,http://dimplejs.org/,dimple.png,JavaScript,1,1,1,1,0,0,0,0,0,H,1,,0,1,0,0,1,MIT License
+Gephi,https://gephi.org/,gephi.png,Java,0,0,0,0,1,0,0,0,0,High,1,-,1,1,1,0,1,GNU General Public License v3
+Highcharts,http://www.highcharts.com/,highcharts.png,JavaScript,1,1,1,1,0,0,1,1,1,High,1,-,1,1,1,0,1,Creative Commons Attribution-ShareAlike 4.0 International License
+Improvise,http://www.cs.ou.edu/~weaver/improvise/,improvise.png,Java,1,1,1,1,1,1,0,1,0,Low,1,-,1,1,1,1,0,Creative Commons Attribution-ShareAlike 4.0 International License
+InfoVis Toolkit,https://philogb.github.io/jit/,infovis.png,JavaScript,1,1,1,1,1,1,1,0,0,High,0,-,1,1,1,0,1,MIT License
+jVectorMap,http://jvectormap.com/,jvectormap.png,JavaScript,0,0,0,0,0,0,0,1,0,High,1,Using external functionalities as web sockets,1,1,1,0,1,GNU Free Documentation License
+Leaflet,http://leafletjs.com/,leaflet.png,JavaScript,0,0,0,0,0,0,0,1,0,High,1,Using external functionalities as web sockets,1,1,1,0,1,"BSD 2-clause ""Simplified"" License"
+MapBoxGL,https://www.mapbox.com/mapbox-gl-js/api/,mapbox.png,JavaScript,0,0,0,0,0,0,0,1,0,High,1,-,1,1,1,0,1,"BSD 2-clause ""Simplified"" License"
+NVD3,http://nvd3.org/,nvd3.png,JavaScript,1,1,1,1,0,0,0,0,0,High,1,,1,1,0,0,1,Apache License 2.0
+Plotly,https://plot.ly/matlab/,plotly.png,Matlab,1,1,1,1,1,1,1,1,1,High,1,-,1,1,0,0,1,MIT License
+Plotly,https://plot.ly/python/,plotly.png,Python,1,1,1,1,1,1,1,1,1,High,1,-,1,1,0,0,1,MIT License
+Plotly,https://plot.ly/r/,plotly.png,R,1,1,1,1,1,1,1,1,1,High,1,-,1,1,0,0,1,MIT License
+Plotly,https://plot.ly/javascript/,plotly.png,JavaScript,1,1,1,1,1,1,1,1,1,High,1,Using external functionalities as web sockets,1,1,0,0,1,MIT License
+Prefuse,http://prefuse.org/,prefuse.gif,Java,1,1,1,1,1,1,1,0,1,Low,1,-,1,1,1,1,0,"BSD 3-clause ""New"" or ""Revised"" License"
+Protovis,http://mbostock.github.io/protovis/,protovis.png,JavaScript,1,1,1,1,1,1,1,1,0,Low,0,-,1,1,1,1,0,BSD License
+RickShaw,http://code.shutterstock.com/rickshaw/,rickshaw.png,JavaScript,1,1,1,1,0,0,0,0,0,H,1,,1,1,0,0,1,MIT License
+Saiku,http://meteorite.bi/products/saiku,saiku.png,Java,1,1,1,1,0,1,1,0,0,High,1,-,1,1,1,1,1,Apache License 2.0
+Shiny,https://rstudio.github.io/shinydashboard/,shiny.png,R,1,1,1,1,1,1,1,1,1,High,1,-,1,1,1,1,1,MIT License
+Sigma,http://sigmajs.org/,sigma.jpg,JavaScript,0,0,0,0,1,0,0,0,0,High,1,Using external functionalities as web sockets,1,1,1,0,1,MIT License
 Splunk,http://dev.splunk.com/javascript,splunk.jpg,JavaScript,1,1,1,1,0,1,1,1,0,High,1,-,1,1,1,1,1,Apache License 2.0
 Splunk,http://dev.splunk.com/php,splunk.jpg,PHP,1,1,1,1,0,1,1,1,0,High,1,-,1,1,1,1,1,Apache License 2.0
 Splunk,http://dev.splunk.com/csharp,splunk.jpg,C#,1,1,1,1,0,1,1,1,0,High,1,-,1,1,1,1,1,Apache License 2.0
 Splunk,http://dev.splunk.com/ruby,splunk.jpg,Ruby,1,1,1,1,0,1,1,1,0,High,1,-,1,1,1,1,1,Apache License 2.0
 Splunk,http://dev.splunk.com/python,splunk.jpg,Python,1,1,1,1,0,1,1,1,0,High,1,-,1,1,1,1,1,Apache License 2.0
 Splunk,http://dev.splunk.com/java,splunk.jpg,Java,1,1,1,1,0,1,1,1,0,High,1,-,1,1,1,1,1,Apache License 2.0
-Shiny,https://rstudio.github.io/shinydashboard/,shiny.png,R,1,1,1,1,1,1,1,1,1,High,1,-,1,1,1,1,1,MIT License
-Saiku,http://meteorite.bi/products/saiku,saiku.png,Java,1,1,1,1,0,1,1,0,0,High,1,-,1,1,1,1,1,Apache License 2.0
-Highcharts,http://www.highcharts.com/,highcharts.png,JavaScript,1,1,1,1,0,0,1,1,1,High,1,-,1,1,1,0,1,Creative Commons Attribution-ShareAlike 4.0 International License
-Leaflet,http://leafletjs.com/,leaflet.png,JavaScript,0,0,0,0,0,0,0,1,0,High,1,Using external functionalities as web sockets,1,1,1,0,1,"BSD 2-clause ""Simplified"" License"
-MapBoxGL,https://www.mapbox.com/mapbox-gl-js/api/,mapbox.png,JavaScript,0,0,0,0,0,0,0,1,0,High,1,-,1,1,1,0,1,"BSD 2-clause ""Simplified"" License"
-jVectorMap,http://jvectormap.com/,jvectormap.png,JavaScript,0,0,0,0,0,0,0,1,0,High,1,Using external functionalities as web sockets,1,1,1,0,1,GNU Free Documentation License
-Plotly,https://plot.ly/matlab/,plotly.png,Matlab,1,1,1,1,1,1,1,1,1,High,1,-,1,1,0,0,1,MIT License
-Plotly,https://plot.ly/python/,plotly.png,Python,1,1,1,1,1,1,1,1,1,High,1,-,1,1,0,0,1,MIT License
-Plotly,https://plot.ly/r/,plotly.png,R,1,1,1,1,1,1,1,1,1,High,1,-,1,1,0,0,1,MIT License
-Plotly,https://plot.ly/javascript/,plotly.png,JavaScript,1,1,1,1,1,1,1,1,1,High,1,Using external functionalities as web sockets,1,1,0,0,1,MIT License
-Brunel,https://github.com/Brunel-Visualization/Brunel,brunel.png,Java,1,1,1,1,1,1,1,1,0,High,0,-,1,1,0,0,1,Apache License 2.0
-Gephi,https://gephi.org/,gephi.png,Java,0,0,0,0,1,0,0,0,0,High,1,-,1,1,1,0,1,GNU General Public License v3
-Sigma,http://sigmajs.org/,sigma.jpg,JavaScript,0,0,0,0,1,0,0,0,0,High,1,Using external functionalities as web sockets,1,1,1,0,1,MIT License
+TileMill,https://tilemill-project.github.io/tilemill/,tilemill.jpg,JavaScript,0,0,0,0,0,0,0,1,0,High,0,-,1,1,0,0,1,"BSD 3-clause ""New"" or ""Revised"" License"
+Vega,https://vega.github.io/vega/,vega.png,JavaScript,1,1,1,1,1,1,1,1,1,High,1,-,1,1,1,0,1,"BSD 3-clause ""New"" or ""Revised"" License"
+Vega-Lite,https://vega.github.io/vega-lite/,vega-lite.png,JavaScript,1,1,1,1,0,0,0,0,0,High,1,-,1,1,0,0,1,"BSD 3-clause ""New"" or ""Revised"" License"
 Vis,http://visjs.org/,visjs.png,JavaScript,1,1,0,1,1,0,0,0,1,High,1,-,1,1,0,0,1,Apache 2.0 License/MIT License
-NVD3,http://nvd3.org/,nvd3.png,JavaScript,1,1,1,1,0,0,0,0,0,High,1,,1,1,0,0,1,Apache License 2.0
-DimpleJS,http://dimplejs.org/,dimple.png,JavaScript,1,1,1,1,0,0,0,0,0,H,1,,0,1,0,0,1,MIT License
-RickShaw,http://code.shutterstock.com/rickshaw/,rickshaw.png,JavaScript,1,1,1,1,0,0,0,0,0,H,1,,1,1,0,0,1,MIT License
+VTK,http://www.vtk.org/,vtk.png,C++,1,1,1,1,1,1,1,1,1,Low,1,-,1,1,1,1,0,BSD License
